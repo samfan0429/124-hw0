@@ -10,8 +10,7 @@ public class Area {
      * @return The area
      */
     public static double getSquareArea(double sideLength) {
-        double areaSquare = Math.pow(sideLength,2.0);  //side Length times side length is an area of a square
-        return areaSquare;
+        return Math.pow(sideLength,2.0);  //side Length times side length is an area of a square;
     }
 
     /**
@@ -20,8 +19,7 @@ public class Area {
      * @return The area
      */
     public static double getCircleArea(double radius) {
-        double areaCircle = Math.pow(radius,2.0) * Math.PI; //radius squared times pi
-        return areaCircle;
+        return Math.pow(radius,2.0) * Math.PI; // Radius squared times Pi
     }
 
 }
