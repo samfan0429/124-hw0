@@ -1,7 +1,7 @@
 package edu.macalester.comp124.hw0;
 
 /**
- * @author Shilad Sen
+ * @author Sun Gyu Park
  */
 public class Area {
     /**
